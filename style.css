@@ -1,0 +1,28 @@
+/* midinfouno */
+.info img {
+    height: 132px;
+    width: 132px;
+    border-radius: 25px;
+    border: 2px solid #3882f6;
+    padding: 20px; 
+}
+
+.bubbles {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.info {
+    max-width: 100px;
+    flex-wrap: wrap;
+}
+
+.text {
+    color: gray;
+    font-size: 10px;
+}
+
+h3 {
+    text-align: center;
+}
