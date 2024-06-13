@@ -1,5 +1,8 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 /*header */ 
@@ -39,29 +42,30 @@ ul {
     padding: 40px;
     display: flex;
     justify-content: space-around;
-    min-width: 0;
 }
 
 .awsome {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bold;
-    min-width: 0;
 }
 
 .welc {
     font-size: 18px;
     color: #e5e7eb;
-    min-width: 0;
 }
 
 button {
    background-color: #3882f6;
-   border: 3px solid #3882f6;
+   border: 5px solid #3882f6;
    color: #f9faf8;
    border-radius: 15px;
    margin-top: 10px;
-   min-width: 0;
+   font-weight: 600;
+   padding: 5px;
+   padding-left: 15px;
+   padding-right: 15px;
+   flex-shrink: 0;
 }
 
 .containertwo {
@@ -72,7 +76,6 @@ button {
 .image {
     display: flex;
     padding: 0;
-    min-width: 0;
 }
 
 /* end top info start midinfouno */
@@ -112,7 +115,7 @@ h3 {
     text-align: center;
     font-size: 36px;
 }
-/* end midinfouno startmidinfodos*/
+/* end midinfouno start midinfodos*/
 
 .midinfodos {
     background-color: #e5e7eb;
@@ -126,4 +129,50 @@ h3 {
 .qoute {
     text-align: end;
     font-weight: 500;
+}
+
+/* end midinfodos start calltoact */
+
+.calltoact {
+    padding: 25px;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #3882f6;
+    border-radius: 25px;
+    border: 3px solid #3882f6;
+    padding: 40px;
+    height: 100px;
+    width: 700px;
+}
+
+.slaps {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.container button {
+    border: 2px solid #e5e7eb; 
+    margin-top: 0;
+}
+
+.inside {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+/* start footer */ 
+
+.footer {
+    background-color: #1f2937;
+    color: #efe7eb;
+    text-align: center;
+    padding: 25px;
 }
